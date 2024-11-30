@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Alegreya+Sans&display=swap');
+
+/* Base Styles */
+body {
+  margin: 0;
+  font-family: 'Alegreya Sans', sans-serif;
+  background-color: #fffff0;
+  /* White Background */
+  color: #333;
+}
