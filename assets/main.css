@@ -3,8 +3,9 @@
 /* Base Styles */
 body {
   margin: 0;
-  font-family: 'Alegreya Sans', sans-serif;
+  font-family: monaco, monospace;
   background-color: #fffff0;
-  /* White Background */
-  color: #333;
+
+  /* black background */
+  color: #000000;
 }
