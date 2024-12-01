@@ -1,34 +1,24 @@
 <!DOCTYPE html>
 	<html>
+		
 		<head>
-			<title>{{ page.title }}</title>
-			<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-			<!--Import materialize.css-->
-			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-				<li><a href="/CSprojs">CS Projects</a></li>
-	    		</ul>
-			</nav>
-			
-			
-			{{ content }}
-			
-			
-		<footer>
-			<div class = "divider"></div>
-	    		<ul>
-				<div class = "card-panel">
-				<li><h6 class = "left-align"><a href="mailto:humeiyin@gmail.com">email</a></h6></li>
-				<li><h6 class = "left-align"><a href="https://github.com/meredeath">github.com/meredeath</a></h6></li>
-				</div>
-			</ul>
-		</footer>
-		</body>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>{{ page.title }} | {{ site.title }}</title>
+			<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+		  </head>
+		  
+		  <body>
+			<!-- Include Header -->
+			{% include header.html %}
+		  
+			<!-- Main Content -->
+			<main>
+			  {{ content }}
+			</main>
+		  
+			<!-- Include Footer -->
+			{% include footer.html %}
+		  </body>
+		  
 </html>
