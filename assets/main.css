@@ -1,11 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Alegreya+Sans&display=swap');
-
 /* Base Styles */
 body {
   margin: 0;
   font-family: monaco, monospace;
-  background-color: #fffff0;
 
-  /* black background */
-  color: #000000;
+  /* black background for website */
+  background-color: #000000;
+
+  /* white text */
+  color: #FFFFFF;
+
+  /* Class for heading 1's in markdown, for now */
+  h1 {
+    font-family: 'Exo 2', sans-serif;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 50px;
+  }
+
+    /* Header Styles */
+    header {
+        background-color: #fffff0;
+        padding: 0px 40px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 120px;
+      }
+      
+      /* Navigation */
+      .site-nav {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+      }
+      
+      .nav-left {
+        display: flex;
+        gap: 30px;
+      }
+      
+      .nav-left a {
+        text-decoration: none;
+      }
+      
+      .nav-left a h2 {
+        display: inline-block;
+        /* Ensures inline placement for navigation items */
+      }
+      
+      .nav-left a:hover h2 {
+        color: #555;
+        /* Hover effect */
+      }
+      
+      .nav-right {
+        text-align: right;
+      }
+      
+      .nav-right .site-title {
+        text-decoration: none;
+      }
+      
+      .nav-right .site-title h1 {
+        display: inline-block;
+        /* Ensures inline placement for title */
+      }
+      
+      .nav-right .site-title:hover h1 {
+        color: #555;
+        /* Hover effect */
+      }
 }
