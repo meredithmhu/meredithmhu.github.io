@@ -1,3 +1,8 @@
-name: Meredith Hu
-markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+title: "My Portfolio"
+description: "Welcome to my portfolio website!"
+baseurl: ""
+url: "https://meredithmhu.github.io"
+theme: minima
+plugins:
+  - jekyll-feed
+
