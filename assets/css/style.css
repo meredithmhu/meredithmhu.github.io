@@ -3,76 +3,120 @@ body {
   margin: 0;
   font-family: monaco, monospace;
 
-  /* black background for website */
+  /* Black background for website */
   background-color: #000000;
 
-  /* white text */
+  /* White text */
   color: #FFFFFF;
+}
 
-  /* Class for heading 1's in markdown, for now */
-  h1 {
-    font-family: 'Exo 2', sans-serif;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    font-size: 50px;
-  }
+/* Increase font size for navbar links */
+nav {
+  font-size: 1.5rem; /* Adjust the size as needed */
+}
 
-    /* Header Styles */
-    header {
-        background-color: #fffff0;
-        padding: 0px 40px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    }
+/* Class for heading 1's in markdown, for now */
+h1 {
+  font-family: monaco, monospace;
+  color: #FFFFFF;
+  font-size: 50px;
+}
 
-    .wrapper {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 120px;
-      }
-      
-      /* Navigation */
-      .site-nav {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        align-items: center;
-      }
-      
-      .nav-left {
-        display: flex;
-        gap: 30px;
-      }
-      
-      .nav-left a {
-        text-decoration: none;
-      }
-      
-      .nav-left a h2 {
-        display: inline-block;
-        /* Ensures inline placement for navigation items */
-      }
-      
-      .nav-left a:hover h2 {
-        color: #555;
-        /* Hover effect */
-      }
-      
-      .nav-right {
-        text-align: right;
-      }
-      
-      .nav-right .site-title {
-        text-decoration: none;
-      }
-      
-      .nav-right .site-title h1 {
-        display: inline-block;
-        /* Ensures inline placement for title */
-      }
-      
-      .nav-right .site-title:hover h1 {
-        color: #555;
-        /* Hover effect */
-      }
+/* Header Styles */
+header {
+  background-color: #fffff0;
+  padding: 0px 40px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+}
+
+/* Navigation */
+.site-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.nav-left {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-left a {
+  text-decoration: none;
+}
+
+.nav-left a h2 {
+  display: inline-block; /* Ensures inline placement for navigation items */
+}
+
+.nav-left a:hover h2 {
+  color: #555; /* Hover effect */
+}
+
+.nav-right {
+  text-align: right;
+}
+
+.nav-right .site-title {
+  text-decoration: none;
+}
+
+.nav-right .site-title h1 {
+  display: inline-block; /* Ensures inline placement for title */
+}
+
+.nav-right .site-title:hover h1 {
+  color: #555; /* Hover effect */
+}
+
+.intro-box {
+  border: 2px solid #FFFFFF; /* White border */
+  padding: 15px;            /* Add padding inside the box */
+  margin: 20px 0 40px 0;    /* Extra space below the box (adjust as needed) */
+  border-radius: 10px;      /* Rounded corners */
+  background-color: #222222; /* Dark gray background */
+  color: #FFFFFF;           /* White text */
+  font-size: 1.2rem;          /* Text size */
+}
+
+/* Style the paragraph after the box */
+p.interests {
+  font-size: 1.2rem;        /* Larger text size for interests paragraph */
+  line-height: 1.6;         /* Improve readability with more line spacing */
+  margin-top: 20px;         /* Extra space between paragraphs (optional) */
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Horizontally center */
+  justify-content: center; /* Vertically center */
+  text-align: center; /* Center the text inside */
+  margin: 0 auto; /* Center the block on the page */
+}
+
+ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+}
+
+ul li {
+  margin-bottom: 10px; /* Add spacing between links */
+}
+
+a {
+  color: #1e90ff; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+  text-decoration: underline; /* Add underline on hover */
 }
