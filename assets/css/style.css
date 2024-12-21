@@ -12,7 +12,7 @@ body {
 
 /* Increase font size for navbar links */
 nav {
-  font-size: 1.5rem; /* Adjust the size as needed */
+  font-size: 2rem; /* Adjust the size as needed */
 }
 
 /* Class for heading 1's in markdown, for now */
@@ -20,61 +20,6 @@ h1 {
   font-family: monaco, monospace;
   color: #FFFFFF;
   font-size: 50px;
-}
-
-/* Header Styles */
-header {
-  background-color: #fffff0;
-  padding: 0px 40px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 120px;
-}
-
-/* Navigation */
-.site-nav {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  align-items: center;
-}
-
-.nav-left {
-  display: flex;
-  gap: 30px;
-}
-
-.nav-left a {
-  text-decoration: none;
-}
-
-.nav-left a h2 {
-  display: inline-block; /* Ensures inline placement for navigation items */
-}
-
-.nav-left a:hover h2 {
-  color: #555; /* Hover effect */
-}
-
-.nav-right {
-  text-align: right;
-}
-
-.nav-right .site-title {
-  text-decoration: none;
-}
-
-.nav-right .site-title h1 {
-  display: inline-block; /* Ensures inline placement for title */
-}
-
-.nav-right .site-title:hover h1 {
-  color: #555; /* Hover effect */
 }
 
 .intro-box {
@@ -120,3 +65,127 @@ a {
 a:hover {
   text-decoration: underline; /* Add underline on hover */
 }
+
+/* Style for Technologies Used section */
+.technologies {
+  font-family: monaco, monospace; /* Use a clean font */
+  color: purple; /* Purple text */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Drop shadow */
+  font-size: 1rem; /* Adjust font size */
+  display: block; /* Ensure it spans a new line */
+  margin-top: 10px; /* Add spacing above the technologies section */
+}
+
+.technologies a {
+  color: purple; /* Default purple color for links */
+  text-decoration: none; /* Remove underline */
+}
+
+.technologies a:hover {
+  color: #ff69b4; /* Change to pink on hover */
+  text-decoration: underline; /* Add underline on hover */
+}
+
+.interests {
+  padding: 5px; /* Add padding inside each paragraph */
+  margin-bottom: 20px; /* Add space between paragraphs */
+  line-height: 1.6; /* Improve readability */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow for depth */
+}
+.content-container {
+  display: flex; /* Use flexbox to arrange the text and image side by side */
+  align-items: flex-start; /* Align items to the top of the container */
+  justify-content: space-between; /* Add space between text and image */
+  margin: 20px auto; /* Center the container */
+  max-width: 1200px; /* Limit the overall width */
+}
+
+.text-content {
+  flex: 2; /* Take up more space for the text */
+  margin-right: 20px; /* Add spacing between text and the image */
+}
+
+.headshot {
+  flex: 1; /* Allocate less space to the image */
+  display: flex; /* Center the image inside the container */
+  align-items: center;
+}
+
+.headshot img {
+  max-width: 300px; /* Set a max width for the image */
+  border-radius: 50%; /* Make the image round */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for a polished look */
+}
+
+.project-box {
+  border: 2px solid #ccc; /* Light border for the project box */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Add padding inside the box */
+  margin-bottom: 20px; /* Space between project boxes */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.project-box h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.project-box p {
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.project-box details summary {
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.project-box pre {
+  background-color: #333; /* Dark background for code snippet */
+  color: #fff; /* Light text for code snippet */
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto; /* Horizontal scrolling for long code lines */
+}
+
+.technologies a {
+  color: #1e90ff; /* Link color */
+  text-decoration: none; /* Remove underline */
+  margin-right: 5px;
+}
+
+.technologies a:hover {
+  text-decoration: underline; /* Add underline on hover */
+  color: #ff69b4; /* Change color on hover */
+}
+
+.glow-text {
+  text-shadow: 0 0 3px rgba(255, 255, 255, 0.6), /* Subtle white glow */
+               
+               0 0 10px rgba(0, 123, 255, 0.3);   /* Subtle blue glow */
+  color: #ffffff; /* White text */
+  font-weight: bold; /* Emphasize the text */
+}
+
+
+.repo-url {
+  font-size: 1.5rem; /* Slightly smaller font size for the URL */
+  margin-left: 10px; /* Add spacing between the project name and the URL */
+  color: #555; /* Subtle color for the URL text */
+}
+
+.repo-url a {
+  color: #1e90ff; /* Match the link color */
+  text-decoration: none; /* Remove underline */
+}
+
+.repo-url a:hover {
+  text-decoration: underline; /* Underline on hover */
+  color: #ff69b4; /* Change color on hover */
+}
+
+.project-title {
+  color: #1e90ff; /* Match the link color */
+}
+

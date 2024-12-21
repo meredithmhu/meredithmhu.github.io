@@ -1,0 +1,47 @@
+<div class="project-box">
+    <h2>
+        <span class="project-title">{{ title }}</span>
+        {% if repo_url %}
+        <span class="repo-url">
+            (<a href="{{ repo_url }}" target="_blank">{{ repo_url }}</a>)
+        </span>
+        {% endif %}
+    </h2>
+    <p>{{ description }}</p>
+    <p>
+        <strong><span class="glow-text">Lines of Code:</span></strong> {{ lines_of_code }} | 
+        <strong><span class="glow-text">Hours Spent:</span></strong> {{ hours_spent }}
+    </p>
+    
+    <details>
+        <summary>View Code Snippet</summary>
+        <pre>{{ code_snippet }}</pre>
+    </details>
+    
+    <span class="technologies">
+        <strong>Technologies Used:</strong> 
+        {% for tech in technologies %}
+        <a href="{{ tech.url }}" target="_blank">{{ tech.name }}</a>{% if forloop.last == false %}, {% endif %}
+        {% endfor %}
+    </span>
+</div>
+
+<div>
+    <p>Debugging Include:</p>
+    <p>Title: {{ title }}</p>
+    <p>Repo URL: {{ repo_url }}</p>
+    <p>Description: {{ description }}</p>
+    <p>Lines of Code: {{ lines_of_code }}</p>
+    <p>Hours Spent: {{ hours_spent }}</p>
+    <p>Code Snippet: {{ code_snippet }}</p>
+    <p>Technologies:</p>
+    <ul>
+        {% if technologies %}
+        {% for tech in technologies %}
+        <li>{{ tech.name }} - <a href="{{ tech.url }}">{{ tech.url }}</a></li>
+        {% endfor %}
+        {% else %}
+        <li>No technologies listed</li>
+        {% endif %}
+    </ul>
+</div>
