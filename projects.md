@@ -3,56 +3,60 @@ layout: default
 title: My Projects
 ---
 
-# My Projects
+<h1 class="header-container">My Projects</h1>
 
-
-Here are my CS projects. Click on "View Code Snippet" to expand and see a sample of code from the project. Each item in "View Technologies" is clickable and links to an online webpage with more information.
+<div class="content-container">
+    Here are my CS projects. Click on "View Code Snippet" to expand and see a sample of code from the project. Each item in "View Technologies" is clickable and links to an online webpage with more information.
+</div>
 
 <div class="project-box">
     <h2>
-        <span class="project-title">My Website</span>
-        <span class="repo-url">
-            (<a href="https://github.com/meredithmhu/meredithmhu.github.io" target="_blank">https://github.com/meredithmhu/meredithmhu.github.io</a>)
-        </span>
+        <a class="project-title" href="https://github.com/meredithmhu/meredithmhu.github.io" target="_blank">My Website</a>
     </h2>
-    <p>This is the GitHub repository for this website. I created this website to showcase my projects and interests in CS.</p>
-    <p><strong><span class="glow-text">Lines of Code:</span></strong> 500+ | <strong><span class="glow-text">Hours Spent:</span></strong> 10</p>
+    <span>This is the GitHub repository for this website. I created this website to showcase my projects and interests in CS.</span>
+    <p>Lines of Code: 500+ | Hours Spent: 10</p>
     
+    <p>
+    <span class="technologies">
+        Technologies Used:
+        <a href="https://jekyllrb.com" target="_blank">Jekyll</a>, 
+        <a href="https://www.ruby-lang.org" target="_blank">Ruby</a>, 
+        <a href="https://pages.github.com" target="_blank">GitHub Pages</a>, 
+        <a href="https://www.markdownguide.org" target="_blank">Markdown</a>
+    </span>
+    </p>
+
     <details>
         <summary>View Code Snippet</summary>
         <pre>
 {% highlight html %}
 <div class="project-box">
     <h2>
-        <span class="project-title">My Website</span>
-        <span class="repo-url">
-            (<a href="https://github.com/meredithmhu/meredithmhu.github.io" target="_blank">https://github.com/meredithmhu/meredithmhu.github.io</a>)
-        </span>
+        <a class="project-title" href="https://github.com/meredithmhu/meredithmhu.github.io" target="_blank">My Website</a>
     </h2>
     <p>This is the GitHub repository for this website. I created this website to showcase my projects and interests in CS.</p>
-    <p><strong><span class="glow-text">Lines of Code:</span></strong> 500+ | <strong><span class="glow-text">Hours Spent:</span></strong> 10</p>
+    <p>Lines of Code: 500+ | Hours Spent: 20+</p>
 {% endhighlight %}
         </pre>
     </details>
     
-    <span class="technologies">
-        <strong>Technologies Used:</strong> 
-        <a href="https://jekyllrb.com" target="_blank">Jekyll</a>, 
-        <a href="https://www.ruby-lang.org" target="_blank">Ruby</a>, 
-        <a href="https://pages.github.com" target="_blank">GitHub Pages</a>, 
-        <a href="https://www.markdownguide.org" target="_blank">Markdown</a>
-    </span>
 </div>
 
 <div class="project-box">
     <h2>
-        <span class="project-title">Caiman Benchmarks</span>
-        <span class="repo-url">
-            (<a href="https://github.com/cucapra/caiman" target="_blank">https://github.com/cucapra/caiman</a>)
-        </span>
+        <a class="project-title" href="https://github.com/cucapra/caiman" target="_blank">Caiman Benchmarks</a>
     </h2>
     <p>I was a research assistant in a programming languages and architecture lab while at school, and worked on an optimizing compiler for heterogeneous language processing called Caiman.</p>
-    <p><strong><span class="glow-text">Lines of Code:</span></strong> 1000+ | <strong><span class="glow-text">Hours Spent:</span></strong> 100+</p>
+    <p>Lines of Code: 1000+ | Hours Spent: 100+</p>
+
+    <p>
+    <span class="technologies">
+        Technologies Used:
+        <a href="https://en.wikipedia.org/wiki/Assembly_language" target="_blank">Assembly</a>, 
+        <a href="https://www.rust-lang.org" target="_blank">Rust</a>, 
+        <a href="https://git-scm.com" target="_blank">Git</a>
+    </span>
+    </p>
     
     <details>
         <summary>View Code Snippet</summary>
@@ -89,15 +93,9 @@ value[impl default @main] %foo() -> i64 {
         </pre>
     </details>
     
-    <span class="technologies">
-        <strong>Technologies Used:</strong> 
-        <a href="https://en.wikipedia.org/wiki/Assembly_language" target="_blank">Assembly</a>, 
-        <a href="https://www.rust-lang.org" target="_blank">Rust</a>, 
-        <a href="https://git-scm.com" target="_blank">Git</a>
-    </span>
 </div>
 
-<p class="interests">
-    If you'd like to see more of my work, check out my GitHub profile: 
-    <a href="https://github.com/meredithmhu" target="_blank">https://github.com/meredithmhu</a>
-</p>
+<div class="content-container">
+    If you'd like to see more of my work, check out my&nbsp;<a href="https://github.com/meredithmhu" target="_blank">GitHub profile</a>.
+
+</div>

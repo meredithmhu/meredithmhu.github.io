@@ -4,7 +4,7 @@ title: Meredith Hu's Personal Website
 content: hello
 ---
 
-<h1>Meredith Hu</h1>
+<h1 class="header-container">Meredith Hu</h1>
 
 <div class="intro-box">
     I'm a recent Cornell CS grad looking for immediate employment. If you're interested in reaching out, please contact me at <a href="mailto:mmh264@cornell.edu">mmh264@cornell.edu</a>.
