@@ -21,7 +21,7 @@ title: My Projects
         Technologies Used:
         <a href="https://jekyllrb.com" target="_blank">Jekyll</a>, 
         <a href="https://www.ruby-lang.org" target="_blank">Ruby</a>, 
-        <a href="https://pages.github.com" target="_blank">GitHub Pages</a>, 
+        <a href="https://pages.github.com" target="_blank">Github Pages</a>, 
         <a href="https://www.markdownguide.org" target="_blank">Markdown</a>
     </span>
     </p>
@@ -89,6 +89,50 @@ value[impl default @main] %foo() -> i64 {
     %r = extract %y_t 0;
     return %y;
 }
+{% endhighlight %}
+        </pre>
+    </details>
+    
+</div>
+
+<div class="project-box">
+    <h2>
+        <a class="project-title" target="_blank">FAT File System</a>
+    </h2>
+    <span>This was my final project for CS 4411, OS Practicum, a project course on operating systems I took during the final year of my undergraduate degree in CS at Cornell.</span>
+    <p>Lines of Code: 100+ | Hours Spent: 10</p>
+    
+    <p>
+    <span class="technologies">
+        Technologies Used:
+        <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank">C</a>, 
+        <a href="https://www.gnu.org/software/make/manual/html_node/Introduction.html" target="_blank">Make</a>, 
+        <a href="https://en.wikipedia.org/wiki/GNU_Debugger" target="_blank">gdb</a>, 
+        <a href="https://valgrind.org" target="_blank">Valgrind</a>
+    </span>
+    </p>
+
+    <details>
+        <summary>View Code Snippet</summary>
+        <pre>
+{% highlight html %}
+
+/* Create a new FAT file system on the specified inode of the block store below
+ */
+int fatdisk_create(block_store_t *below, unsigned int below_ino, unsigned int ninodes) {
+	// Create a fatdisk_block union named superblock for our superblock
+	union fatdisk_block superblock;
+	// Read and check if you can read it (-1 means read error)
+	if( (*below->read)(below, below_ino, 0, (block_t*) &superblock) < 0 ) {
+		return -1;
+	}
+	// If you can read it, check whether there is already a filesystem there.
+	if( superblock.superblock.n_inodeblocks != 0 ) {
+		printf( "fatdisk: one already exists with %lu inodes\n", superblock.superblock.n_inodeblocks * INODES_PER_BLOCK );
+		// Not an error so don't return -1, but we do want to not destroy the below FAT file system
+		return 0;
+	}
+
 {% endhighlight %}
         </pre>
     </details>

@@ -1,6 +1,11 @@
 # meredithmhu.github.io
 My personal website!
 
+## To Do
+[ ] add FAT File System to website
+[ ] start blog section 
+[ ] add caiman explanation to blog 
+
 ## Milestones Log
 12-21-24: Functional website done
 

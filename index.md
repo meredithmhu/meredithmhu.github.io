@@ -32,18 +32,3 @@ content: hello
         <img src="./images/headshot.jpg" alt="Meredith Hu's Headshot">
     </div>
 </div>
-
-
-
-
-<!--
-<div class="centered">
-  <h1>Quick Links</h1>
-
-  <ul>
-    <li>LinkedIn: <a href="https://www.linkedin.com/in/meredithhu/">https://www.linkedin.com/in/meredithhu/</a></li>
-    <li>GitHub: <a href="https://github.com/meredithmhu">https://github.com/meredithmhu</a></li>
-    <li>Email: <a href="mailto:mmh264@cornell.edu">mmh264@cornell.edu</a></li>
-  </ul>
-</div>
--->
