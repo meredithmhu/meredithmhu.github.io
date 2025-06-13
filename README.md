@@ -2,9 +2,9 @@
 My personal website!
 
 ## To Do
-[ ] add FAT File System to website
-[ ] start blog section 
-[ ] add caiman explanation to blog 
+- [x] add FAT File System to website 6-08-24
+- [ ] start blog section 
+- [ ] add caiman explanation to blog 
 
 ## Milestones Log
 12-21-24: Functional website done
