@@ -235,3 +235,21 @@ embed {
   justify-content: center; /* Center the embed horizontally */
   margin: 20px 0; /* Add space around the embed */
 }
+
+/* Style for Blog Homepage */ 
+flex-container {
+  display: flex; /* Aligns children side by side */
+}
+
+.div1 {
+  flex: 0.33; /* Div 1 takes up 0.33 fractional unit of space */
+  /* Add other styles like background-color, padding, border as needed */
+  padding: 20px;
+  background-color: lightblue;
+}
+
+.div2 {
+  flex: 1; /* Div 2 also takes up one fractional unit, so both are equal width */
+  padding: 20px;
+  background-color: lightgreen;
+}
