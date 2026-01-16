@@ -239,6 +239,7 @@ embed {
 /* Style for Blog Homepage */ 
 flex-container {
   display: flex; /* Aligns children side by side */
+  flex-direction: row;
 }
 
 .div1 {
