@@ -7,7 +7,7 @@ title: My Resume
 
 <div class="content-container">
 <p class="interests">
-    Below is my resume. You can also <a href="./Meredith_Hu_Resume.pdf" target="_blank">download the PDF version</a>.
+    Below is my resume. You can also <a href="./meredith_cs_resume_feb_2026.pdf" target="_blank">download the PDF version</a>.
 </p>
 
 
