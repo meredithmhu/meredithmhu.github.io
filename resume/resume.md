@@ -20,7 +20,7 @@ You may find me on LinkedIn <a href="https://www.linkedin.com/in/meredithhu/" ta
 <center>
 <iframe 
     data-embed="true"
-    src="./Meredith_Hu_Resume.pdf" 
+    src="./meredith_cs_resume_feb_2026.pdf" 
     width="90%" 
     height="600px" 
     style="border: none;">
