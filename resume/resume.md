@@ -7,7 +7,7 @@ title: My Resume
 
 <div class="content-container">
 <p class="interests">
-    Below is my resume. You can also <a href="./meredith_cs_resume_feb_2026.pdf" target="_blank">download the PDF version</a>.
+    Below is my resume. You can also <a href="./meredith_cs_resume_march_2026.pdf" target="_blank">download the PDF version</a>.
 </p>
 
 
@@ -20,7 +20,7 @@ You may find me on LinkedIn <a href="https://www.linkedin.com/in/meredithhu/" ta
 <center>
 <iframe 
     data-embed="true"
-    src="./meredith_cs_resume_feb_2026.pdf" 
+    src="./meredith_cs_resume_march_2026.pdf" 
     width="90%" 
     height="600px" 
     style="border: none;">
