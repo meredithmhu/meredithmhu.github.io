@@ -10,7 +10,7 @@ content: hello
     Software Engineer — Systems & Tooling<br>
     Cornell University (B.A. Computer Science & Classics)<br>
     Seeking entry-level backend, infrastructure, or verification-focused roles.<br>
-    Contact: <a href="mailto:mmh264@cornell.edu">mmh264@cornell.edu</a>
+    Contact: <a href="mailto:reach.meredith.hu@gmail.com">reach.meredith.hu@gmail.com</a>
 </div>
 
 <div class="content-container">
