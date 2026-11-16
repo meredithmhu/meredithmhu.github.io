@@ -16,14 +16,11 @@ content: hello
 <div class="content-container">
     <div class="text-content">
         <p class="interests">
-            I’m a systems-oriented software engineer with interests in correctness, tooling, and low-level system design.
-            At Cornell’s Capra CS Lab, I built Python automation to orchestrate benchmark execution and modeled
-            constraints in Z3 to verify correctness properties of experimental systems.
+            Hi, I'm Meredith! I'm a BRIDGE program statistical programming intern at Regeneron. At Regeneron, I use R and Shiny to create custom web apps and write data tracking tools for internal use. I graduated from Cornell with a B.A. in Computer Science and Classics in 2024. My interests center on systems programming, correctness, and building tooling that improves engineering workflows. 
         </p>
 
         <p class="interests">
-            I also implemented and revisited a FAT-style filesystem in C to strengthen my understanding of
-            memory safety, file system invariants, and systems-level debugging using tools such as Valgrind and gdb.
+            I'm also currently creating a browser tool, the Aperio Latin Notebook, that is designed to help users study Latin and annotate Latin texts interactively. You can check it out at aperio-latin.up.railway.app. 
         </p>
 
         <p class="interests">
